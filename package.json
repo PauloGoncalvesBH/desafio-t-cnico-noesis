@@ -1,11 +1,12 @@
 {
-  "name": "desafio-tecnico-sofist",
-  "description": "Desafio técnico para vaga de QA da Sofist",
+  "name": "desafio-tecnico-noesis",
+  "description": "Desafio técnico para vaga de QA da Noesis",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Paulo Gonçalves <paulorochag@hotmail.com> (https://linkedin.com/in/paulo-goncalves)",
   "scripts": {
     "test:api": "jest test/api",
+    "test:unit": "jest test/unit",
     "test:e2e:chrome": "webdriver-manager update --standalone false --gecko false && protractor test/e2e/configs/protractorChrome.conf.js",
     "test:e2e:firefox": "webdriver-manager update --standalone false --chrome false && protractor test/e2e/configs/protractorFirefox.conf.js",
     "test:e2e": "npm run test:e2e:chrome && npm run test:e2e:firefox",

@@ -1,6 +1,6 @@
 const frisby = require("frisby")
 
-describe("Requisições utilizando token", () => {
+describe("DESAFIO 2 - API", () => {
   const endpoint = "http://www.omdbapi.com/"
   const idDoFilme = "tt1285016"
   const apiKey = "52ec71bf"

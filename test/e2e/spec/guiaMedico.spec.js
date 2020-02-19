@@ -1,6 +1,6 @@
 const guiaMedico = require('../page_objects/guiaMedico');
 
-describe('Testes de inclusão de post', () => {
+describe('DESAFIO 1 - E2E', () => {
 
   beforeEach(() => guiaMedico.acessar())
   

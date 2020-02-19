@@ -28,7 +28,15 @@ O comando [npm ci](https://docs.npmjs.com/cli/ci.html) instala as dependências 
 
 ### Executando os testes
 
-#### API
+#### Unit - Desafio 1
+
+Para executar o teste unitário, execute:
+
+```
+npm run test:unit
+```
+
+#### API - Desafio 2
 
 Para executar os testes de API, execute:
 
@@ -36,7 +44,7 @@ Para executar os testes de API, execute:
 npm run test:api
 ```
 
-#### E2E
+#### E2E - Desafio 3
 
 Para executar os testes E2E no **Chrome**, execute:
 
